@@ -1,6 +1,5 @@
 import { DATA } from "../data";
 import Image from "../assets/image2.jpeg";
-import { MdEmail } from "react-icons/md";
 import { FaWhatsapp } from "react-icons/fa";
 
 export default function Hero() {
@@ -27,15 +26,7 @@ export default function Hero() {
                             </div>
 
                             {/* EMAIL ICON */}
-                            <div className="mt-6 flex items-center gap-3">
-                                <a 
-                                    href={`mailto:${DATA.email}`} 
-                                    className="flex items-center gap-2 text-gray-700 hover:text-black transition"
-                                >
-                                    <MdEmail size={26} />
-                                    <span className="text-sm hidden sm:inline">{DATA.email}</span>
-                                </a>
-                            </div>
+                    
                         </div>
 
                         {/* IMAGE CARD */}
@@ -66,7 +57,7 @@ export default function Hero() {
 
             {/* WHATSAPP ICON FIXED */}
             <a 
-                href={`https://wa.me/${1234}`}
+                href={`https://wa.me/${12233639005}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="fixed bottom-6 right-6 bg-green-600 hover:bg-green-700 text-white rounded-full p-4 shadow-lg flex items-center justify-center transition"
